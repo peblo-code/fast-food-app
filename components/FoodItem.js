@@ -16,8 +16,7 @@ export default function FoodItem({items}) {
                 <Text style={[styles.titleFont, {fontSize: 11}]}>Gs. {item_price}</Text>
                 <Link
                     href={{
-                    pathname: '/foodView/[id]',
-                    params: { id: '1' }
+                    pathname: '/foodView',
                     }}>
                     <Image source={CircledPlus} alt="Icono de Agregar a la Canasta" style={styles.circledPlus}/>
                 </Link>
